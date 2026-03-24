@@ -1,0 +1,67 @@
+body{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+
+.todo{
+    background-color: white;
+    border-radius: 1rem;
+    text-align: start;
+    padding: 1rem;
+}
+
+
+.hanleAdd{
+    text-align: center;
+}
+
+li{
+    list-style: none;
+    
+    background-color: aqua;
+    margin-bottom: 0.5rem;
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.add{
+    background-color: blue;
+    height: 2rem;
+    width: 4rem;
+    border: none;
+    border-radius: 0.3rem;
+    color: white;
+    margin-left: .5rem;
+}
+
+.add:hover{
+    background-color: rgb(91, 88, 243);
+    height: 2rem;
+}
+
+.delete{
+    height: 1.7rem;
+    border: none;
+    border-radius: 0.2rem;
+}
+
+.delete:hover{
+    background-color: blue;
+    color: white;
+}
+
+.input{
+    height: 2rem;
+    width: 20rem;
+    border-radius: 0.5rem;
+    border:  1px solid red;
+    padding-left: 0.5rem;
+}
+
+.checkbox{
+    margin-right: 0.rem;
+}
